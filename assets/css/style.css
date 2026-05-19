@@ -52,7 +52,7 @@ address{
 }
 .aptitudes{
     background-color: rgb(227, 227, 227);
-    width: 30%;
+    width: 20%;
 }
 ul{
     list-style-type: square;
@@ -62,7 +62,7 @@ li::marker{
 
 }
 .parcours{
-    width: 70%;
+    width: 80%;
 }
 time{
     color: rgb(23, 171, 179);
@@ -112,4 +112,5 @@ footer{
     font-style: italic;
     background-color: rgb(23, 171, 179);
     text-align: center;
+    justify-content: center;
 }
