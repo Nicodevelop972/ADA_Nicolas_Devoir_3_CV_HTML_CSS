@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "Raleway-Regular";
+    src: url(../../../ADA_Nicolas_Devoir_3_CV_HTML_CSS_Git/assets/font/Raleway-Regular.ttf);
+}
+
+body{
+    font-family: "Raleway-Regular";
+    width: 1160px;
+    margin: auto;
+}
+header{
+    background-color: rgb(23, 171, 179);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+}
+.icone{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 1160px;
+}
+figure{
+    display: flex;
+    gap: 2px;
+}
+.niveau{
+    padding: 1%;
+    height: 15px;
+    width: 15px;
+}
+h1, h2{
+    font-family: "Lato";
+}
+h3{
+    font-family: "Lato";
+    color: rgb(23, 171, 179);
+}
+address{
+    display: flex;
+    margin: auto;
+}
+.cv{
+    display: flex;
+}
+.aptitudes{
+    background-color: rgb(227, 227, 227);
+    width: 30%;
+}
+ul{
+    list-style-type: square;
+}
+li::marker{
+    color: rgb(23, 171, 179);
+
+}
+.parcours{
+    width: 70%;
+}
+time{
+    color: rgb(23, 171, 179);
+    float: right;
+}
+#photo{
+    float: left;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    
+}
+#photo:hover{
+    cursor: zoom-in;
+}
+.langue{
+    font-weight: bold;
+    float: right;
+}
+li, p{
+    font-weight: bold;
+}
+.formation:hover{
+    background-color: rgb(227, 227, 227);
+}
+.profil, small{
+    font-weight: lighter;
+}
+section{
+    font-weight: bold;
+}
+small{
+    font-style: italic;
+}
+img, .social{
+    height: 25px;
+    width: 25px;
+    padding: 10px;
+}
+.social:hover{
+    opacity: 0,7;
+}
+footer{
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    background-color: rgb(23, 171, 179);
+    text-align: center;
+}
